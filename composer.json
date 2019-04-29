@@ -1,0 +1,25 @@
+{
+    "name": "yiiplus/yii2-location",
+    "description": "Location extension for Yii 2.0",
+    "type": "]library",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "gengxiankun",
+            "email": "gengxiankun@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "yiiplus\\location\\": "src",
+            "yiiplus\\location\\baidulbsyun\\": "src/drives/baidulbsyun"
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.0"
+    }
+}
