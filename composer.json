@@ -1,8 +1,8 @@
 {
     "name": "yiiplus/yii2-location",
     "description": "Location extension for Yii 2.0",
-    "type": "]library",
-    "license": "Apache 2.0",
+    "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "gengxiankun",
